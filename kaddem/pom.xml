@@ -15,7 +15,7 @@
     <description>kaddem</description>
     <properties>
         <java.version>1.8</java.version>
-        <sonar.host.url>http://192.168.101.253:9000</sonar.host.url>
+        <sonar.host.url>http://192.168.1.21:9000</sonar.host.url>
         <!--suppress UnresolvedMavenProperty -->
         <sonar.login>squ_83e6db99c4709f58a064cfa5fbae8bac27428d80</sonar.login>
     </properties>
@@ -55,7 +55,7 @@
         <repository>
             <id>DockerPipeline</id>
             <name>maven-releases</name>
-            <url>http://192.168.215.141:8081/repository/maven-snapshots/</url>
+            <url>http://192.168.1.21:8081/repository/maven-snapshots/</url>
         </repository>
     </distributionManagement>
     <build>
