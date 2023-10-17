@@ -17,7 +17,7 @@
         <java.version>1.8</java.version>
         <sonar.host.url>http://192.168.1.21:9000</sonar.host.url>
         <!--suppress UnresolvedMavenProperty -->
-        <sonar.login>squ_83e6db99c4709f58a064cfa5fbae8bac27428d80</sonar.login>
+        <sonar.login>ddf07b17a8451f916c7cc355dc2791716f9b2562</sonar.login>
     </properties>
     <dependencies>
         <dependency>
@@ -63,6 +63,15 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <excludes>
+                        <exclude>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                            <mainClass>tn.esprit.spring.kaddem.KaddemApplication</mainClass>
+                        </exclude>
+                    </excludes>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
