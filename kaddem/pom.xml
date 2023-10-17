@@ -58,7 +58,12 @@
             <url>http://192.168.215.141:8081/repository/maven-snapshots/</url>
         </repository>
     </distributionManagement>
-         <build>
+    <!--
+       This is a comment.
+       
+    -->
+
+    <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
