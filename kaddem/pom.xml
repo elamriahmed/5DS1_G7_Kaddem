@@ -64,11 +64,11 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
+                  <mainClass>tn.esprit.spring.kaddem.KaddemApplication</mainClass>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
                             <artifactId>lombok</artifactId>
-                            <mainClass>tn.esprit.spring.kaddem.KaddemApplication</mainClass>
                         </exclude>
                     </excludes>
                 </configuration>
