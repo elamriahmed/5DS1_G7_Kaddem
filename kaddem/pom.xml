@@ -58,11 +58,6 @@
             <url>http://192.168.215.141:8081/repository/maven-snapshots/</url>
         </repository>
     </distributionManagement>
-    <!--
-       This is a comment.
-       
-    -->
-
     <build>
         <plugins>
             <plugin>
