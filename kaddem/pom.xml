@@ -58,9 +58,6 @@
             <url>http://192.168.215.141:8081/repository/maven-snapshots/</url>
         </repository>
     </distributionManagement>
-<!--
-         //My name is AHMED ELAMRI
-    -->
          <build>
         <plugins>
             <plugin>
