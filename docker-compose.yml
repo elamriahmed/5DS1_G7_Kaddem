@@ -21,7 +21,3 @@ services:
       MYSQL_DATABASE: projDevOps
       MYSQL_USER: root
       MYSQL_PASSWORD:
-    networks:
-      - mynetwork
-    volumes:
-      - mysql-data:/var/lib/mysql
