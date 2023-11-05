@@ -1,0 +1,17 @@
+
+€
+java:S1488"dImmediately return this expression instead of assigning it to the temporary variable "listContrats".(ôúÈQ8ë«¼Î±1
+
+java:S1488#"_Immediately return this expression instead of assigning it to the temporary variable "contrat".(›ûŸòüÿÿÿÿ8ë«¼Î±1
+|
+java:S14880"_Immediately return this expression instead of assigning it to the temporary variable "contrat".(–å‚8í«¼Î±1
+b
+java:S4684""@Replace this persistent entity with a simple POJO or DTO object.(¡Æÿÿÿÿÿ8à­¼Î±1
+\
+java:S4684/"@Replace this persistent entity with a simple POJO or DTO object.(ˆ´¡H8å­¼Î±1
+]	java:S1255"<This block of commented-out lines of code should be removed.(Òì®ƒúÿÿÿÿ8ë­¼Î±1
+]	java:S125K"<This block of commented-out lines of code should be removed.(­÷º›úÿÿÿÿ8õ­¼Î±1
+u
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8ú­¼Î±1
+m
+java:S1128	"PRemove this unused import 'tn.esprit.spring.kaddem.services.ContratServiceImpl'.(£Ÿ¹¦8ú­¼Î±1

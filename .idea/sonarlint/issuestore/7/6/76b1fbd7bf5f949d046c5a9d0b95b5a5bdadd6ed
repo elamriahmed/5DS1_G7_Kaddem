@@ -1,0 +1,18 @@
+
+f
+java:S1128"DRemove this unused import 'org.springframework.data.domain.Example'.(³˜œÍüÿÿÿÿ8îÕÎ±1
+c
+java:S1128"ARemove this unused import 'org.springframework.data.domain.Page'.(˜âüÿÿÿÿ8îÕÎ±1
+g
+java:S1128"ERemove this unused import 'org.springframework.data.domain.Pageable'.(‡ë‚Öıÿÿÿÿ8îÕÎ±1
+c
+java:S1128"ARemove this unused import 'org.springframework.data.domain.Sort'.(ëÿ€ëøÿÿÿÿ8îÕÎ±1
+o
+java:S1128"RRemove this unused import 'org.springframework.data.jpa.repository.JpaRepository'.(À™‡“8îÕÎ±1
+o
+java:S1128
+"RRemove this unused import 'org.springframework.data.repository.query.FluentQuery'.(õ‘Â¬8îÕÎ±1
+Q
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8îÕÎ±1
+U
+java:S1128"8Remove this unused import 'java.util.function.Function'.(»³Í8îÕÎ±1
