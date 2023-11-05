@@ -9,7 +9,7 @@ services:
     ports:
       - 3306:3306
   app_kaddem_back:
-    image : 5ds1_g7_kaddem:tagname
+    image : 5ds1_g7_kaddem:latest
     depends_on:
       - mysqldatabase
     restart: on-failure
@@ -24,4 +24,3 @@ services:
             "spring.jpa.hibernate.ddl-auto" : "update",
             "spring.jpa.properties.hibernate.dialect": "org.hibernate.dialect.MySQL5InnoDBDialect"
           }'
-      
