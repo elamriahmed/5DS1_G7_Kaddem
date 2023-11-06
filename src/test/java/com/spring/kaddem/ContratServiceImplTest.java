@@ -96,11 +96,11 @@ class ContratServiceImplTest {
 
 
 	@Test
-	void retrieveAllEtudiants() {
+	void retrieveAllContrat() {
 		setContrats();
 		when(contratRepository.findAll()).thenReturn(contrats);
-		List<Contrat> retrievedetudiants = contratService.retrieveAllContrats();
-		assertEquals(contrats, retrievedetudiants);
+		List<Contrat> retrievcontrats = contratService.retrieveAllContrats();
+		assertEquals(contrats, retrievcontrats);
 
 	}
 
@@ -195,63 +195,11 @@ class ContratServiceImplTest {
 
 	}
 	@Test
-	void removeEtudiant() {
+	void removeContrat() {
 		int ContratIdToRemove = 1;
 		contratService.removeContrat(ContratIdToRemove);
 		verify(contratRepository).deleteById(ContratIdToRemove);
 	}
-/*
-	@Test
-	void testAddAndAffectContratToEtudiant() {
-
-		String nomE = "John";
-		String prenomE = "Doe";
-
-		Etudiant etudiant = new Etudiant();
-
-		ContratDTO contratDto = new ContratDTO();
-		String startDateStr = "2022/04/29";
-		String endDateStr = "2022/06/30";
-		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
-		try {
-			Date startDate = dateFormat.parse(startDateStr);
-			Date endDate = dateFormat.parse(endDateStr);
-
-			contratDto.setDateDebutContrat(startDate);
-			contratDto.setDateFinContrat(endDate);
-			contratDto.setArchived(true);
-			contratDto.setMontantContrat(3000);
-			contratDto.setSpecialite(Specialite.CLOUD);
-
-			when(etudiantRepository.findByNomEAndPrenomE(nomE, prenomE)).thenReturn(etudiant);
-			when(contratRepository.save(any(Contrat.class))).thenAnswer(invocation -> {
-				Contrat saveContrat = invocation.getArgument(0);
-				saveContrat.setIdContrat(1); // Set the ID as it would be generated during save
-				return saveContrat;
-			});
-
-			ContratDTO result = contratService.addAndAffectContratToEtudiant(contratDto, nomE, prenomE);
-
-			verify(contratRepository).save(any(Contrat.class));
-			String formattedStartDate = dateFormat.format(result.getDateDebutContrat());
-			String formattedEndDate = dateFormat.format(result.getDateFinContrat());
-
-			// Perform assertions with the formatted dates
-			assertEquals("2022/04/29", formattedStartDate);
-			assertEquals("2022/06/30", formattedEndDate);
-			assertEquals(3000, result.getMontantContrat());
-			assertTrue(result.getArchived());
-			assertEquals(Specialite.CLOUD, result.getSpecialite());
-		} catch (ParseException e) {
-			fail("Failed to parse date: " + e.getMessage());
-		}
-	}
-
- */
-
-
-
-
 
 
 
